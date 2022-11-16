@@ -1,7 +1,7 @@
 function calculateZakat(input) {
-    if (input.length == "") {
+    if (input == "") {
       alert("Numbers cannot be blank");
-      return false;
+      return;
     }
   
     if (isNaN(input)) {
@@ -9,11 +9,13 @@ function calculateZakat(input) {
       return;
     }
 
-  
-    var inputAmount = parseInt(input);
-    var result = inputAmount * .025;
+    const zakatPercentage = .025;
+    var inputAmount;
+    inputAmount = parseInt(input);
+    var result;
+    result = inputAmount * zakatPercentage;
     
-    alert("Total: " + result);
+    //alert("Total: " + result);
 
-    
+document.getElementById('totalDisplay').innerHTML = result;    
   }

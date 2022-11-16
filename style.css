@@ -7,3 +7,17 @@
 text-align:center;
 }
 
+
+.buttons{
+  display: inline-flex;
+  gap: 0.5em;
+
+}
+
+ button{
+  width:90px;
+}
+
+p{
+  display:inline-block;
+}

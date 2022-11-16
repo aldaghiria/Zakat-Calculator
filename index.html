@@ -13,10 +13,17 @@
     <h1>Zakat Calculator</h1> 
     <p>Amount</p>
     <input type="text" name="Amount" id="amount"><br><br>
-     <button onclick="calculateZakat(amount.value)">Calculate</button><br><br>
-     <input class="reset" type="reset" value="Reset">
-     <p>Total</p>
-     <input type="text" name="total" class="total">
+    <div class="buttons">
+     <button class="btn-calc" type="button" onclick="calculateZakat(amount.value)">Calculate</button><br><br>
+     <button class="reset" type="reset" value="Reset">Reset</button>
+    </div>
+    <br>
+    <br>
+    <p>Zakat Payable</p>
+    <div id="totalDisplay">
+        <input type="text" name="total" class="total">
+    </div>
+    <!-- <input type="text" name="total" class="total">-->
 
     </div> 
 </form>

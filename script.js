@@ -17,5 +17,5 @@ function calculateZakat(input) {
     
     //alert("Total: " + result);
 
-document.getElementById('totalDisplay').innerHTML = result;    
+document.getElementById('totalDisplay').innerHTML = "Zakat Payable: " + result;
   }

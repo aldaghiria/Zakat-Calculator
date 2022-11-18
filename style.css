@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Archivo';
+}
+
 .container{
     margin: auto;
   width: 50%;
   border: 2px solid rgb(0, 0, 0);
-  padding: 25px;
   margin-top:200px;
+  padding: 50px;
 text-align:center;
 }
 
@@ -20,4 +28,8 @@ text-align:center;
 
 p{
   display:inline-block;
+}
+
+#totalDisplay{
+font-size: 35px;
 }
